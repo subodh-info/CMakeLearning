@@ -6,6 +6,10 @@
 
 int main()
 {
+    // C++ 20 related features
+    auto value = ((10 <=> 20) > 0);
+    std::cout << std::boolalpha;
+
     double result = add(20, 70);
     std::cout << "result : " << result << std::endl;
 
